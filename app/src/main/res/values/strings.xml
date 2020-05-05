@@ -1,0 +1,240 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">VIO</string>
+    <string name="title_today">Today</string>
+    <string name="title_calendar">The calendar</string>
+    <string name="title_advices">Tips</string>
+    <string name="title_more">More</string>
+    <string name="change_language">Change language</string>
+    <string name="notification_settings">Reminders</string>
+    <string name="notification_question_0">Period will start in a couple of days</string>
+    <string name="notification_question_1">End date of the period</string>
+    <string name="notification_question_2">Start date of the period</string>
+    <string name="notification_question_3">Ovulation</string>
+    <string name="accept_all">Accept all</string>
+    <string name="next">Further</string>
+    <string name="info_restart_application">
+        Restart the application for the changes to take effect
+    </string>
+    <string name="skip">Skip</string>
+    <string name="pass">Password</string>
+    <string name="email">E-mail</string>
+    <string name="error_email">Not valid e-mail</string>
+    <string name="error_pass">Not valid pass</string>
+    <string name="description_login">Enter your e-mail and password</string>
+    <string name="choose_date">Select the first day of your period</string>
+    <!-- license  -->
+    <string-array name="license_menu">
+        <item>@string/license_0</item>
+        <item>@string/license_1</item>
+        <item>@string/license_2</item>
+        <item>@string/license_3</item>
+    </string-array>
+    <string name="license_comment">
+        *You can withdraw your consent at any time by writing in example@rtrd.hert
+    </string>
+    <string name="license_0">
+        <![CDATA[
+I agree to <a href="https://www.privacypolicies.com/privacy/view/914cdd79d430a3e86db382b4137e34cd">Privacy Policy</a> and <a href="https://www.privacypolicies.com/privacy/view/914cdd79d430a3e86db382b4137e34cd">Terms of Use</a>
+]]>
+    </string>
+    <string name="license_1">
+        <![CDATA[
+I agree to the processing of personal health data for application functioning. Find out more in the <a href="https://www.privacypolicies.com/privacy/view/914cdd79d430a3e86db382b4137e34cd>Privacy Policy</a>
+]]>
+    </string>
+    <string name="license_2">
+        <![CDATA[
+I consent to the use of my <a href="https://www.privacypolicies.com/privacy/view/914cdd79d430a3e86db382b4137e34cd">personal information</a> including partner recommendations**
+]]>
+    </string>
+    <string name="license_3">
+        <![CDATA[
+I consent to making my personal information available to appflayer and its integrated partners for the purpose of expanding the audience and promoting the app*
+]]>
+    </string>
+    <!--  Steps  -->
+    <string name="steps_question_0">When did your last period begin?</string>
+    <string name="steps_question_1">What is the average duration of your period?</string>
+    <string name="steps_question_2">What is the average duration of your cycle?</string>
+    <string name="choose">Choose</string>
+    <string name="pregnant_question">Which week of pregnancy are you in currently?</string>
+    <string name="average_length_cycle">Average length cycle</string>
+    <!-- calendar fragment -->
+    <!-- month names  -->
+    <string name="jan">January</string>
+    <string name="feb">February</string>
+    <string name="mar">March</string>
+    <string name="apr">April</string>
+    <string name="may">May</string>
+    <string name="jun">June</string>
+    <string name="jul">July</string>
+    <string name="aug">August</string>
+    <string name="sep">September</string>
+    <string name="oct">October</string>
+    <string name="nov">November</string>
+    <string name="dec">December</string>
+    <!--  month names for title   -->
+    <string name="jant">January</string>
+    <string name="febt">February</string>
+    <string name="mart">March</string>
+    <string name="aprt">April</string>
+    <string name="mayt">May</string>
+    <string name="junt">June</string>
+    <string name="jult">July</string>
+    <string name="augt">August</string>
+    <string name="sept">September</string>
+    <string name="octt">October</string>
+    <string name="novt">November</string>
+    <string name="dect">December</string>
+    <!-- day on week names -->
+    <string name="mon">Monday</string>
+    <string name="tue">Tuesday</string>
+    <string name="wed">Wednesday</string>
+    <string name="thu">Thursday</string>
+    <string name="fri">Friday</string>
+    <string name="sat">Saturday</string>
+    <string name="sun">Sunday</string>
+    <!-- header -->
+    <string name="check_menstrual">Record period</string>
+    <string name="delete_menstrual">Delete period</string>
+    <string name="day">Day</string>
+    <string name="week">A week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="fertility_title">There is a possibility to get pregnant</string>
+    <string name="ovulation_title">Ovulation \n Possibility to get pregnant high</string>
+    <string name="menstrual_title">Period</string>
+    <string name="infertility_title">Possibility to get pregnant low</string>
+    <string name="empty_title">No info for this day</string>
+    <string name="days">Days</string>
+    <string name="next_cycle">Soon</string>
+    <string name="ovulation">Ovulation</string>
+    <string name="tip_today_new">Easier to get pregnant</string>
+    <string name="tip_today_old">There is a chance to get pregnant</string>
+    <string name="menstrual">Period</string>
+    <string name="length_cycle">Cycle length</string>
+    <string name="length_menstrual_cycle">Period length</string>
+    <string name="tip_pref_0">
+        Initially, Vio makes predictions based on the cycle and menstruation length entered here; by regularly entering info on your periods, you will enable the application to build forecasts based on this info
+    </string>
+    <string name="forgot">I do not remember</string>
+    <string name="tip_pref_1">
+        If you disable this option, you will only see the day of ovulation, without indication of the probability of getting pregnant
+    </string>
+    <!-- more activity  -->
+    <string name="more_title">More</string>
+    <string name="cycle_settings">Cycle and ovulation</string>
+    <string name="cycle_length">Cycle length</string>
+    <string name="menstrual_length">Period length</string>
+    <string name="probability_pregnant">Probability of getting pregnant</string>
+    <string name="cycle_settings_tip_0">
+        Initially, the VIO makes predictions based on the data entered here
+    </string>
+    <string name="cycle_settings_tip_1">
+        If you turn off this setting, you will only see the day of ovulation but not the possibility to get pregnant
+    </string>
+    <string name="menstrual_two_days">Period will start in a couple of days</string>
+    <string name="menstrual_end">End date of the period</string>
+    <string name="menstrual_start">Start date of the period</string>
+    <string name="send">Send</string>
+    <string name="chance_get_pregnant">Chance to get pregnant</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="facebook_app_id" translatable="false">336077194008249</string>
+    <string name="preferences">settings</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="whats_your_name">What\'s your name?</string>
+    <string name="errorName">The name must contain more than four characters</string>
+    <string name="errorDate">Please select a date</string>
+
+    <string-array name="notification_settings">
+        <item>pref_notification_m_two_days</item>
+        <item>period_length</item>
+        <item>pref_cycle_length</item>
+    </string-array>
+    <string-array name="cycle_length_entry_values">
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+    </string-array>
+    <string-array name="cycle_length_entries">
+        <item>21 Day</item>
+        <item>22 Days</item>
+        <item>23 Days</item>
+        <item>24 Days</item>
+        <item>25 Days</item>
+        <item>26 Days</item>
+        <item>27 Days</item>
+        <item>28 Days</item>
+        <item>29 Days</item>
+        <item>30 Days</item>
+        <item>31 Days</item>
+        <item>32 Days</item>
+        <item>33 Days</item>
+        <item>34 Days</item>
+        <item>35 Days</item>
+    </string-array>
+    <string-array name="menstrual_length_entry_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="menstrual_length_entries">
+        <item>3 дня</item>
+        <item>4 дня</item>
+        <item>5 дней</item>
+        <item>6 дней</item>
+        <item>7 дней</item>
+        <item>8 дней</item>
+        <item>9 дней</item>
+        <item>10 дней</item>
+        <item>11 дней</item>
+    </string-array>
+
+    <string name="article_title" translatable="false">Should You Go to Bed Before Midnight</string>
+    <string name="article_content" translatable="false">According to an old saying, an hour of sleep before
+    midnight equals two hours afterward. According to modern sleep research, though, this is just
+    a..Continue reading According to an old saying, an hour of sleep before
+        midnight equals two hours afterward. According to modern sleep research, though, this is just
+        a..Continue reading</string>
+
+    <string name="detailedbtn">More details</string>
+    <string name="back_text">Return</string>
+    <string name="reccomend">Vio recommends</string>
+    <string name="cicle_text">Days before the start of menstruation</string>
+    <string name="cicle_btn_text">MARK MENSTRUATION</string>
+    <string name="text_ovelation">Ovulation prognosis</string>
+    <string name="text_future_menstruation">Menstruation prognosis</string>
+    <string name="apply_changes">APPLY CHANGES</string>
+
+    <string name="yes_review">Yes</string>
+    <string name="no_review">No</string>
+    <string name="text_review">Do you like our application?</string>
+
+    <string name="alert_cloud_text">Vio offers helpful health tips
+that will be of assistance to you in your everyday life</string>
+</resources>

@@ -1,0 +1,25 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen
+            app:fragment="com.vio.calendar.prefs.PreferencesActivity$PreferencesCycleFragment"
+            android:icon="@drawable/ic_cycle_settings"
+            android:title="@string/cycle_settings">
+    </PreferenceScreen>
+
+    <PreferenceScreen
+            app:fragment="com.vio.calendar.prefs.PreferencesActivity$PreferencesNotificationFragment"
+            android:icon="@drawable/ic_notifications"
+            android:title="@string/notification_settings">
+    </PreferenceScreen>
+
+    <PreferenceScreen
+            android:title="@string/change_language"
+            android:icon="@drawable/ic_change_language"
+            android:summary="@string/change_language">
+        <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.vio.calendar"
+                android:targetClass="com.vio.calendar.ui.more.LanguageActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

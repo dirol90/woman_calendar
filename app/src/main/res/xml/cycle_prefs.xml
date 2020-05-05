@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+            android:key="pref_cycle_length"
+            android:title="@string/cycle_length"
+            android:icon="@drawable/ic_cycle_length"
+            android:entries="@array/cycle_length_entries"
+            android:entryValues="@array/cycle_length_entry_values"
+            android:defaultValue="25" />
+    <ListPreference
+            android:key="period_length"
+            android:title="@string/menstrual_length"
+            android:icon="@drawable/ic_menstrual_length"
+            android:entries="@array/menstrual_length_entries"
+            android:entryValues="@array/menstrual_length_entry_values"
+            android:summary="@string/cycle_settings_tip_0"
+            android:defaultValue="5" />
+    <SwitchPreference
+            android:key="pref_chance_get_pregnant"
+            android:icon="@drawable/ic_chance_get_pregnant"
+            android:defaultValue="true"
+            android:title="@string/chance_get_pregnant"
+            android:summary="@string/cycle_settings_tip_1"/>
+
+</PreferenceScreen>

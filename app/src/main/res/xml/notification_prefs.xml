@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+            android:key="pref_notification_m_two_days"
+            android:icon="@drawable/ic_notification_m_two_days"
+            android:title="@string/menstrual_two_days"
+            android:defaultValue="true" />
+    <CheckBoxPreference
+            android:key="pref_notification_m_end"
+            android:title="@string/menstrual_end"
+            android:icon="@drawable/ic_notification_m_end"
+            android:defaultValue="true" />
+    <CheckBoxPreference
+            android:key="pref_notification_m_start"
+            android:icon="@drawable/ic_menstrual_start"
+            android:title="@string/menstrual_start"
+            android:defaultValue="true" />
+    <CheckBoxPreference
+            android:key="pref_notification_o"
+            android:icon="@drawable/ic_ovulation"
+            android:title="@string/ovulation"
+            android:defaultValue="true" />
+</PreferenceScreen>

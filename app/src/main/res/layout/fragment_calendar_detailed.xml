@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/legendLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save_iv"
+        tools:ignore="HardcodedText">
+
+        <TextView
+            android:id="@+id/legendText1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="SUN"
+            android:textColor="@color/colorAccent"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/legendText2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="MON"
+            android:textColor="@color/colorAccent"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/legendText3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TUE"
+            android:textColor="@color/colorAccent"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/legendText4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="WED"
+            android:textColor="@color/colorAccent"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/legendText5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="THU"
+            android:textColor="@color/colorAccent"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/legendText6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="FRI"
+            android:textColor="@color/colorAccent"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/legendText7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="SAT"
+            android:textColor="@color/colorAccent"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bg_image2"
+        android:layout_width="0dp"
+        android:layout_height="225dp"
+        android:foreground="@color/transparentWhiteHard"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bg_img_calendar" />
+
+    <ImageView
+        android:id="@+id/exit_iv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:padding="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cancel" />
+
+    <ImageView
+        android:id="@+id/save_iv"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:layout_marginEnd="60dp"
+        android:padding="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ok" />
+
+    <View
+        android:id="@+id/separator2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="4dp"
+        android:background="#C4C4C4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/legendLayout" />
+
+    <com.kizitonwose.calendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        app:cv_dayViewResource="@layout/item_day"
+        app:cv_monthHeaderResource="@layout/calendar_header"
+        app:layout_constraintBottom_toBottomOf="@+id/bg_image2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/separator2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

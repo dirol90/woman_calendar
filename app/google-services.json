@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "669927872449",
+    "firebase_url": "https://unity-quiz-f16db.firebaseio.com",
+    "project_id": "unity-quiz-f16db",
+    "storage_bucket": "unity-quiz-f16db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669927872449:android:8504c05983894931f0c140",
+        "android_client_info": {
+          "package_name": "com.vio.calendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669927872449-l3cu8mob8t68jrq26j5rs2r8gbqo7n8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv26hOVUA8nqSkqi0DJgkZfRrPxRP_bvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669927872449-l3cu8mob8t68jrq26j5rs2r8gbqo7n8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

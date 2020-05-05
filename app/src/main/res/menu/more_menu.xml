@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:lls="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/menstrual_two_days"
+            android:title="@string/menstrual_two_days"/>
+    <item
+            android:id="@+id/menstrual_end"
+            android:title="@string/menstrual_end" />
+    <item
+            android:id="@+id/menstrual_start"
+            android:title="@string/menstrual_start" />
+    <item
+            android:id="@+id/ovulation"
+            android:title="@string/ovulation" />
+</menu>

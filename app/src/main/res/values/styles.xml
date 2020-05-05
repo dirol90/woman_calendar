@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPink</item>
+        <item name="colorPrimaryDark">@color/colorPink</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="progressBarBlue" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+
+    <!-- Light application theme -->
+    
+    <style name="ToolbarTheme" parent="Widget.Design.AppBarLayout">
+        <item name="android:background">@drawable/toolbar_bg</item>
+        <item name="android:textColorPrimary">@color/colorPink</item>
+        <item name="android:textColorSecondary">@color/colorPink</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+    
+    <style name="SansButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/open_sans_extra_bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppThemeSec" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/colorPinkWhite</item>
+    </style>
+
+    <style name="AppThemeSec.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+    </style>
+    
+    <style name="RadioButtonGreen" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorPink</item>
+        <item name="colorControlActivated">@color/colorPink</item>
+    </style>
+
+    <style name="TextViewRegular" parent="Theme.AppCompat.Light">
+        <item name="android:textColorLink">@color/license_link</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="TextViewHeader" parent="Theme.AppCompat.Light">
+        <item name="android:fontFamily">@font/open_sans_extra_bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+<!--    <style name="BottomNavigationTheme">-->
+<!--        <item name="android:background">@color/main_color</item>-->
+<!--        <item name="itemBackground">@color/main_color</item>-->
+<!--        <item name="itemIconTint">@android:color/white</item>-->
+<!--        <item name="itemTextColor">@android:color/white</item>-->
+<!--        <item name="colorPrimary">@android:color/white</item>-->
+<!--        <item name="android:textColorSecondary">@color/colorMainGray</item>-->
+<!--    </style>-->
+
+    <style name="ArticleCardViewStyle" parent="Theme.AppCompat.Light">
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+
+    <style name="EditTextTintTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+s    </style>
+
+
+
+
+</resources>

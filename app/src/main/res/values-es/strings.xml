@@ -1,0 +1,157 @@
+<resources>
+    <string name="title_today">Hoy</string>
+    <string name="title_calendar">El calendario</string>
+    <string name="title_advices">Consejo</string>
+    <string name="title_more">Más</string>
+    <string name="change_language">Cambiar idioma</string>
+    <string name="notification_settings">Recordatorios</string>
+    <string name="notification_question_0">El periodo empezará en un par de días</string>
+    <string name="notification_question_1">Fecha de finalización del período</string>
+    <string name="notification_question_2">Fecha de inicio del periodo</string>
+    <string name="notification_question_3">Ovulación</string>
+    <string name="accept_all">Aceptar todo</string>
+    <string name="next">Promover</string>
+    <string name="info_restart_application">
+        Volver a cargar la aplicación para que los cambios surtan efecto
+    </string>
+    <string name="skip">Omitir</string>
+    <string name="pass">Contraseña</string>
+    <string name="email">E-mail</string>
+    <string name="error_email">Correo no válido</string>
+    <string name="error_pass">Pase no válido</string>
+    <string name="description_login">Introduce tu correo electrónico y contraseña</string>
+    <string name="license_comment">
+        *Puedes retirar tu consentimiento en cualquier momento escribiendo por example@rtrd.hert
+    </string>
+    <string name="choose_date">Selecciona el primer día de tu periodo</string>
+    <string name="license_0">
+        <![CDATA[
+Estoy de acuerdo con la <a href="https://www.privacypolicies.com/privacy/view/914cdd79d430a3e86db382b4137e34cd">Política de Privacidad</a> y los <a href="https://www.privacypolicies.com/privacy/view/914cdd79d430a3e86db382b4137e34cd">Términos de Uso</a>
+]]>
+    </string>
+    <string name="license_1">
+        <![CDATA[
+Acepto el procesamiento de datos personales de salud para el funcionamiento de la aplicación. Saber más en la <a href="https://www.privacypolicies.com/privacy/view/914cdd79d430a3e86db382b4137e34cd">Política de Privacidad</a>
+]]>
+    </string>
+    <string name="license_2">
+        <![CDATA[
+Autorizo el uso de mis <a href="https://www.privacypolicies.com/privacy/view/914cdd79d430a3e86db382b4137e34cd">datos personales</a> incluyendo recomendaciones de socios**
+]]>
+    </string>
+    <string name="license_3">
+        <![CDATA[
+Autorizo que mis datos personales estén disponibles para appflayer y sus socios integrados con el fin de ampliar el público y promocionar la aplicación.*
+]]>
+    </string>
+    <!--  New User  -->
+    <string name="steps_question_0">Cuándo comenzó tu último periodo?</string>
+    <string name="steps_question_1">Cuál es la duración media de tu periodo?</string>
+    <string name="steps_question_2">Cuál es la duración media de tu ciclo?</string>
+    <string name="choose">Elegir</string>
+    <string name="pregnant_question">En qué semana del embarazo estás actualmente?</string>
+    <string name="average_length_cycle">Ciclo de duración promedio</string>
+    <!-- month names  -->
+    <string name="jan">Enero</string>
+    <string name="feb">Febrero</string>
+    <string name="mar">Marzo</string>
+    <string name="apr">Abril</string>
+    <string name="may">Mayo</string>
+    <string name="jun">Junio</string>
+    <string name="jul">Julio</string>
+    <string name="aug">Agosto</string>
+    <string name="sep">Septiembre</string>
+    <string name="oct">Octubre</string>
+    <string name="nov">Noviembre</string>
+    <string name="dec">Diciembre</string>
+    <!--  month names for title   -->
+    <string name="jant">Enero</string>
+    <string name="febt">Febrero</string>
+    <string name="mart">Marzo</string>
+    <string name="aprt">Abril</string>
+    <string name="mayt">Mayo</string>
+    <string name="junt">Junio</string>
+    <string name="jult">Julio</string>
+    <string name="augt">agosto</string>
+    <string name="sept">Septiembre</string>
+    <string name="octt">Octubre</string>
+    <string name="novt">Noviembre</string>
+    <string name="dect">Diciembre</string>
+    <!-- day on week names -->
+    <string name="mon">Lunes</string>
+    <string name="tue">Martes</string>
+    <string name="wed">Miercoles</string>
+    <string name="thu">Jueves</string>
+    <string name="fri">Viernes</string>
+    <string name="sat">Sabado</string>
+    <string name="sun">Domingo</string>
+    <string name="check_menstrual">Guardar periodo</string>
+    <string name="delete_menstrual">Borrar periodo</string>
+    <string name="day">Día</string>
+    <string name="week">La semana</string>
+    <string name="month">Mes</string>
+    <string name="year">Año</string>
+    <string name="fertility_title">Existe la posibilidad de quedar embarazada</string>
+    <string name="ovulation_title">Ovulación \n posibilidad alta de quedar embarazada</string>
+    <string name="menstrual_title">Periodo</string>
+    <string name="infertility_title">Posibilidad baja de quedar embarazada</string>
+    <string name="empty_title">Esta vacio</string>
+    <string name="days">Días</string>
+    <string name="send">Send</string>
+    <string name="next_cycle">Pronto</string>
+    <string name="ovulation">Ovulación</string>
+    <string name="tip_today_new">Más fácil quedarse embarazada</string>
+    <string name="tip_today_old">Hay una posibilidad de quedarse embarazada</string>
+    <string name="menstrual">Periodo</string>
+    <string name="length_cycle">Duración del ciclo</string>
+    <string name="length_menstrual_cycle">Duración periodo</string>
+    <string name="more_title">Mas</string>
+    <string name="cycle_settings">Ciclo y ovulación</string>
+    <string name="cycle_length">Duración del ciclo</string>
+    <string name="menstrual_length">Duración del período</string>
+    <string name="probability_pregnant">Probabilidad de quedar embarazada</string>
+    <string name="cycle_settings_tip_0">
+        Inicialmente, el VIO hace predicciones basadas en los datos que se ingresen aquí
+    </string>
+    <string name="cycle_settings_tip_1">
+        Si desactiva esta configuración, solo verá el día de la ovulación, pero no la posibilidad de quedar embarazada
+    </string>
+    <string name="menstrual_two_days">El periodo empezará en un par de días</string>
+    <string name="menstrual_end">Fecha de finalización del período</string>
+    <string name="menstrual_start">Fecha de inicio del periodo</string>
+    <string name="chance_get_pregnant">Probabilidad de quedar embarazada</string>
+    <string name="tip_pref_0">
+        Inicialmente, Vio realiza predicciones basadas en el ciclo y la duración de la menstruación introducidas aquí; al introducir información sobre tus periodos de manera regular, permitirás que la aplicación forme predicciones según dicha información
+    </string>
+    <string name="forgot">No recuerdo</string>
+    <string name="tip_pref_1">
+        Si desactivas esta opción, solo verás el día de ovulación sin indicación de la probabilidad de quedarte embarazada
+    </string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="preferences">Settings</string>
+    <string name="whats_your_name">Cual es tu nombre?</string>
+    <string name="errorName">El nombre debe contener más de cuatro caracteres</string>
+    <string name="errorDate">Por favor seleccione una fecha</string>
+
+    <string name="detailedbtn">Más detalles</string>
+    <string name="back_text">Volver</string>
+    <string name="reccomend">Vio recomienda</string>
+    <string name="cicle_text">Días antes del inicio de la menstruación.</string>
+    <string name="cicle_btn_text">MENSTRUACIÓN DE MARCA</string>
+    <string name="text_ovelation">Pronóstico de la ovulación</string>
+    <string name="text_future_menstruation">Pronóstico de la menstruación</string>
+    <string name="apply_changes">APLICAR CAMBIOS</string>
+
+    <string name="yes_review">Si</string>
+    <string name="no_review">No</string>
+    <string name="text_review">¿Te ha gustado nuestra aplicación?</string>
+
+    <string name="alert_cloud_text">Vio tiene buenos consejos sobre la salud que te ayudarán en tu vida cotidiana</string>
+</resources>

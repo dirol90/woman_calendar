@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="main_color">#FDACF0</color>
+    <color name="main_bg_color">#F2F2F2</color>
+
+    <color name="calendar_empty">#7A5E63</color>
+    
+    <color name="license_link">#5294A2</color>
+
+    <color name="period_predicted">#E6ABAD</color>
+    <color name="period_future">#6FE6ABAD</color>
+    <color name="fertility_predicted_text">#4A98A0</color>
+    <color name="fertility_future_text">#6F4A98A0</color>
+
+    <color name="infertility_predicted_text">#B4404D</color>
+    <color name="infertility_future_text">#6FB4404D</color>
+    <color name="ovulation_predicted">#D0A244</color>
+    <color name="ovulation_future">#6FD0A244</color>
+
+    <color name="button_transparent_text">#A6A6A6</color>
+
+    
+    <color name="colorMainGreen">#37977b</color>
+    <color name="colorMainGray">#f6f6f6</color>
+    <color name="colorPinkWhite">#e7adae</color>
+    <color name="colorPinkGray">#d38788</color>
+    <color name="colorBackPink">#b48484</color>
+
+    <color name="colorFertility">#D1A043</color>
+
+    <color name="textGray">#AAAAAA</color>
+
+    <color name="transparentRed">#BFb5414e</color>
+
+    <color name="colorRedMonthName">#B5414E</color>
+
+    <color name="colorMenstrualHeader">#BFB5414E</color>
+
+    <color name="transparent">#00100001</color>
+
+    <color name="colorMenstrualFuture">#7Fe7adae</color>
+
+
+    <color name="colorOvulationText">#D1A043</color>
+    <color name="colorOvulationFuture">#7FD1A043</color>
+    <color name="colorOvulationHeader">#BFD1A043</color>
+
+
+    <color name="colorFertilityText">#5094A9</color>
+    <color name="colorFertilityHeader">#BF5094A9</color>
+    <color name="colorFertilityFuture">#7F5094A9</color>
+
+    <color name="transparentWhite">#7FFFFFFF</color>
+    <color name="transparentWhiteHard">#99FFFFFF</color>
+    <color name="colorPink">#FDACF0</color>
+    <color name="colorPinkReview">#FEDEF9</color>
+    <color name="colorPartlyInvisibleReview">#979595</color>>
+    <color name="colorBottomPanelChecked">#D28688</color>
+
+    <color name="cherryBlossomColor">#FCC9B9</color>
+
+    <color name="articleBackground">#FDF2F8</color>
+
+    <color name="defaultText">#808080</color>
+
+    <color name="prefsBackground">#FAE7E5</color>
+
+
+</resources>

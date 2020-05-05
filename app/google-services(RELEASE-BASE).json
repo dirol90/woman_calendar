@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "1061308288846",
+    "firebase_url": "https://vio-c9635.firebaseio.com",
+    "project_id": "vio-c9635",
+    "storage_bucket": "vio-c9635.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061308288846:android:efde72d7de0bc092",
+        "android_client_info": {
+          "package_name": "com.vio.calendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061308288846-6dpcrv5e2vopnclvv78n43rl3ihi8uic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhwG3MjPU27KmB_jiCOaGZcUn1sR0KKDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061308288846-6dpcrv5e2vopnclvv78n43rl3ihi8uic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1890073619173649~8908748583"
+    }
+  ],
+  "configuration_version": "1"
+}
